@@ -8,7 +8,7 @@ Please read these terms before using AccentMirror. By using the app you agree to
 
 ## The service
 
-AccentMirror is a pronunciation coaching app that uses AI to help you improve your accent in a foreign language. It is provided by **[YOUR NAME OR TRADING NAME]**, United Kingdom.
+AccentMirror is a pronunciation coaching app that uses AI to help you improve your accent in a foreign language. It is provided by Stuart Pendergast, United Kingdom.
 
 The app is offered as-is. While we work hard to make it accurate and useful, pronunciation coaching is inherently subjective and the scores and tips provided are for guidance only. They are not a substitute for formal language instruction.
 
@@ -45,7 +45,7 @@ AccentMirror offers optional paid subscriptions (Fluent monthly and annual plans
 
 ## Intellectual property
 
-The AccentMirror app, its design, and its content are owned by **[YOUR NAME OR TRADING NAME]**. You may not reproduce, redistribute, or create derivative works from the app without written permission.
+The AccentMirror app, its design, and its content are owned by Stuart Pendergast. You may not reproduce, redistribute, or create derivative works from the app without written permission.
 
 Your voice recordings remain yours. We do not claim any rights over them.
 
@@ -72,7 +72,7 @@ Our total liability to you for any claim shall not exceed the amount you paid fo
 
 ## Governing law
 
-These terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.
+These terms are governed by the laws of England and Wales. Any disputes shall be subject to the exclusive jurisdiction of the courts of England and Wales.  For users outside the UK, local mandatory consumer protection laws may apply.
 
 ---
 
@@ -84,6 +84,6 @@ We may update these terms from time to time. We will notify you of significant c
 
 ## Contact
 
-**[YOUR NAME OR TRADING NAME]**  
+Stuart Pendergast  
 Email: **[YOUR CONTACT EMAIL]**  
 United Kingdom
