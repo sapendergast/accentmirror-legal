@@ -2,9 +2,9 @@
 
 **Last updated: May 2026**
 
-AccentMirror is developed and operated by **[YOUR NAME OR TRADING NAME]**, based in the United Kingdom.
+AccentMirror is developed and operated by Stuart Pendergast, based in the United Kingdom.
 
-This policy explains what data AccentMirror collects, why, and what your rights are under UK GDPR.
+This policy explains what data AccentMirror collects, why, and what your rights are under UK GDPR and applicable data protection laws.
 
 ---
 
@@ -91,6 +91,15 @@ If you are unsatisfied with our response, you have the right to lodge a complain
 
 ---
 
+## California Residents (CCPA)
+
+AccentMirror does not sell personal information as defined under the 
+California Consumer Privacy Act. California residents have the right to 
+know what personal information is collected and to request deletion. 
+Contact [YOUR EMAIL] to exercise these rights.
+
+---
+
 ## Children
 
 AccentMirror is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided data through this app, please contact us and we will delete it promptly.
@@ -105,7 +114,7 @@ If we make material changes to this policy, we will update the "Last updated" da
 
 ## Contact
 
-**[YOUR NAME OR TRADING NAME]**  
+Stuart Pendergast 
 Email: **[YOUR CONTACT EMAIL]**  
 United Kingdom
 
