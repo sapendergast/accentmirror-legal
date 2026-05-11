@@ -83,7 +83,7 @@ As a UK resident you have the right to:
 - **Object** — object to processing based on legitimate interests
 - **Withdraw consent** — at any time, for analytics and advertising
 
-To exercise any of these rights, contact: **[YOUR CONTACT EMAIL]**
+To exercise any of these rights, contact: accentmirrorapp@gmail.com
 
 We will respond within 30 days. There is no charge for making a request.
 
@@ -115,7 +115,7 @@ If we make material changes to this policy, we will update the "Last updated" da
 ## Contact
 
 Stuart Pendergast 
-Email: **[YOUR CONTACT EMAIL]**  
+Email: accentmirrorapp@gmail.com 
 United Kingdom
 
 ---

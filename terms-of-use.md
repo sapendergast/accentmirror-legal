@@ -85,5 +85,5 @@ We may update these terms from time to time. We will notify you of significant c
 ## Contact
 
 Stuart Pendergast  
-Email: **[YOUR CONTACT EMAIL]**  
+Email: accentmirrorapp@gmail.com 
 United Kingdom
