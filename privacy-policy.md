@@ -28,7 +28,7 @@ You can withdraw this consent at any time via **Menu → Privacy & Data**.
 
 ## Advertising (optional)
 
-AccentMirror offers a free tier supported by advertising. If you chose to allow ads, advertisements are displayed via **Google AdMob**. Google may use your device's advertising identifier to show relevant ads in accordance with [Google's privacy policy](https://policies.google.com/privacy).
+AccentMirror's free tier is supported by non-personalised advertising via Google AdMob. Ads do not use your device's advertising identifier and are shown based on context only, in accordance with [Google's privacy policy](https://policies.google.com/privacy).
 
 Allowing ads is entirely optional. If you choose not to allow ads, the app still works — you receive 10 free sessions per day without any advertising. Ads simply help cover the cost of the AI services (Microsoft Azure and Anthropic) that power the app's core features.
 
@@ -93,10 +93,7 @@ If you are unsatisfied with our response, you have the right to lodge a complain
 
 ## California Residents (CCPA)
 
-AccentMirror does not sell personal information as defined under the 
-California Consumer Privacy Act. California residents have the right to 
-know what personal information is collected and to request deletion. 
-Contact [YOUR EMAIL] to exercise these rights.
+AccentMirror does not sell personal information as defined under the California Consumer Privacy Act. California residents have the right to know what personal information is collected and to request deletion. Contact accentmirrorapp@gmail.com to exercise these rights.
 
 ---
 
