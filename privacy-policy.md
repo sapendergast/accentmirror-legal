@@ -8,13 +8,26 @@ This policy explains what data AccentMirror collects, why, and what your rights 
 
 ---
 
-## What AccentMirror does with your voice
+## What we collect and why
 
-When you record yourself speaking, your audio is sent securely to **Microsoft Azure Speech Services** for two purposes: transcribing what you said, and scoring your pronunciation. Audio is processed in real time. Microsoft does not store your recordings beyond the duration of the request. AccentMirror itself never stores your audio.
+AccentMirror requires two things to work. Both are necessary for the app's core
+features — neither is optional, and there's no separate consent step for either
+beyond the one-time acknowledgement shown the first time you open the app.
 
-The text of what you said (your transcription) is sent to **Anthropic's API** to generate personalised pronunciation coaching tips. Anthropic processes this text to produce coaching output and does not retain it for training purposes under their standard API terms.
+**Voice processing.** When you record yourself speaking, that audio is sent to
+Microsoft Azure (Speech Services) for transcription and pronunciation scoring,
+and — for the initial "mirror" playback — to Deepgram for speech-to-text. The
+text of what you said is then sent to Anthropic (Claude AI) to generate your
+personalised coaching tips. Audio is processed in real time by each provider
+and is not retained by them after your request completes.
 
-Neither your audio nor your transcription is ever seen by the developer of this app.
+**Progress and session backup.** Your scores, practice phrases, and language
+settings are automatically backed up to secure cloud storage (Firebase) so your
+progress survives a reinstall or a new device. This starts the moment you first
+open the app, tied to an anonymous device identifier — no account or email is
+required for this to happen. If you later save your progress with an email
+address in Settings, that same backup becomes linked to your account instead of
+the anonymous identifier.
 
 ---
 
@@ -44,6 +57,16 @@ Free-tier (Echo) users see ads to help cover the cost of the AI services that po
 
 Session history, scores, and coaching summaries are stored locally on your device, and are also automatically backed up to secure cloud storage (Firebase) so your progress survives a reinstall or a new device. This backup happens automatically from the moment you first open the app, tied to an anonymous device identifier — it does not require creating an account or entering an email address. If you later save your progress with an email address in Settings, that same backup becomes linked to your account. You can delete your on-device data by uninstalling the app; to remove your data from our servers entirely, use Delete Account in the app's Settings, or contact accentmirrorapp@gmail.com.
 
+---
+
+## Do I need to create an account?
+
+No. AccentMirror works fully — including cloud backup of your progress — without
+ever creating an account or entering an email address. An anonymous identifier is
+generated automatically on first launch and is what your backed-up data is tied
+to. Creating an account with an email (via Settings → Save your progress) simply
+lets that same backup follow you if you sign in on a different device; it doesn't
+change what's collected or how it's used.
 
 ---
 
