@@ -1,132 +1,183 @@
-# Privacy Policy — AccentMirror
+# Privacy Policy - AccentMirror
 
-**Last updated: July 2026**
+**Last updated: 25 September 2026**
 
-AccentMirror is developed and operated by Stuart Pendergast, based in the United Kingdom.
+AccentMirror is developed and operated by Stuart Pendergast, a sole trader based in the United Kingdom. Stuart is the data controller for the personal data described here.
 
-This policy explains what data AccentMirror collects, why, and what your rights are under UK GDPR and applicable data protection laws.
+This policy explains what AccentMirror collects, why, who processes it, how long it is kept, and your rights under UK GDPR and other applicable data protection laws.
+
+---
+
+## The short version
+
+- Your voice recordings are sent to speech services for transcription and scoring. We don't store your audio.
+- From your first take, your scores, transcriptions and word-by-word results are backed up to our cloud database (Google Firebase) under an anonymous ID. You don't need an email address or an account for this.
+- Without an account, that backup can't be restored after a reinstall or on another device. If you create an account, the backup is linked to it and can be restored.
+- We don't sell your data.
+- You can delete your data at any time with **Settings → Delete Account**, or by emailing accentmirrorapp@gmail.com.
 
 ---
 
 ## What we collect and why
 
-AccentMirror requires two things to work. Both are necessary for the app's core
-features — neither is optional, and there's no separate consent step for either
-beyond the one-time acknowledgement shown the first time you open the app.
+### 1. Your voice and what you say
 
-**Voice processing.** When you record yourself speaking, that audio is sent to
-Microsoft Azure (Speech Services) for transcription and pronunciation scoring,
-and — for the initial "mirror" playback — to Deepgram for speech-to-text. The
-text of what you said is then sent to Anthropic (Claude AI) to generate your
-personalised coaching tips. Audio is processed in real time by each provider
-and is not retained by them after your request completes.
+When you record a take, the audio is sent to speech services for transcription and pronunciation scoring:
 
-**Progress and session backup.** Your scores, practice phrases, and language
-settings are automatically backed up to secure cloud storage (Firebase) so your
-progress survives a reinstall or a new device. This starts the moment you first
-open the app, tied to an anonymous device identifier — no account or email is
-required for this to happen. If you later save your progress with an email
-address in Settings, that same backup becomes linked to your account instead of
-the anonymous identifier.
+- **Deepgram** - transcription of what you say in free practice (Stage 1).
+- **Microsoft Azure Speech Services** - transcription and pronunciation scoring, and generating the reference and "accent mirror" audio you hear.
+- **Microsoft Azure Translator** - translating your transcription so you can see what you said.
+
+The text of your take, its word-by-word scores and your recent score history are then sent to **Anthropic** (Claude) through our own server functions, to generate your coaching tips, progress insights and practice phrases.
+
+We don't store your audio. AccentMirror sends each recording for processing and keeps nothing afterwards, apart from short-lived playback files in your phone's temporary cache. Each provider handles the data it receives under its own terms and data protection agreements, which are linked below.
+
+**Why:** this is the service you asked for. Without it, the app can't score or coach you. **Lawful basis:** performance of a contract (UK GDPR Art. 6(1)(b)).
+
+### 2. Your practice history (backed up to the cloud)
+
+On first launch, the app creates an **anonymous user ID** (Firebase Anonymous Authentication). This is a random identifier, not your device's hardware or advertising identifier.
+
+From your first scored take, the following is stored in Google Firebase (Cloud Firestore) under that ID:
+
+- each scored take: the phrase, your transcription, its translation, your score, band, word-by-word scores and score breakdown (no audio);
+- exam results (phrases, scores, improved and weak words);
+- usage counters that enforce daily take limits and prevent abuse, a marker showing you've used your free trial, and a count of AI requests.
+
+**Stays on your device only:** your coaching summaries and tips, your language settings (unless you have an account), cached audio and translations, and app preferences.
+
+**Without an account**, the cloud backup can't be restored if you reinstall the app, clear its data or change phone, because nothing can sign back in to that anonymous ID.
+
+**With an account**, the same backup is linked to your account, and your language settings are backed up too. That lets you restore your history on a new install or another device.
+
+**Why:** to keep your progress safe, to enforce plan limits fairly, and to prevent abuse. **Lawful basis:** performance of a contract for your practice history; legitimate interests for limits, abuse prevention and security (Art. 6(1)(f)).
+
+### 3. Your account (optional)
+
+You can create an account in **Settings → Save your progress** with email and password, Sign in with Apple, or Google Sign-In. We store:
+
+- your email address and the identifiers your sign-in provider gives us;
+- for Sign in with Apple, a token held on our server so we can revoke Apple access when you delete your account.
+
+**Lawful basis:** performance of a contract.
+
+### 4. Progress emails (optional)
+
+If you tick the box to receive progress summaries and product updates, we store your email address and your choice. We haven't started sending these yet, and we'll update this policy before we do. You can change your mind at any time by contacting us. **Lawful basis:** consent (Art. 6(1)(a)).
+
+### 5. Analytics
+
+We collect usage events (such as "session started" and "score shown") through **Google Analytics for Firebase** to fix bugs and improve the app. Events don't include audio, transcriptions or your email address. Events are tied to a random app-instance identifier, not to your AccentMirror user ID or account. **Lawful basis:** legitimate interests. You can object at any time by contacting us.
+
+### 6. Advertising (free Echo plan)
+
+The free Echo plan shows ads, including optional rewarded video ads, through **Google AdMob**.
+
+- In the UK, EEA and Switzerland, you choose whether ads can be personalised through Google's certified consent tool, shown on first use. You can change your choice at any time in **Settings → Manage ad privacy**.
+- On iPhone, personalised ads also need your permission through Apple's App Tracking Transparency prompt.
+- If you don't consent, or you're elsewhere and haven't consented, only non-personalised (contextual) ads are shown.
+
+If you consent, your device's advertising identifier may be used. **Lawful basis:** consent for personalised ads; legitimate interests for non-personalised ads.
+
+### 7. Subscriptions
+
+Payments are handled by Apple (App Store) or Google (Google Play). We never see your card details. **RevenueCat** manages subscription status and receives your AccentMirror user ID and your purchase history. **Lawful basis:** performance of a contract; legal obligation for transaction records.
+
+### 8. Shared AI cache
+
+To keep costs down, generated coaching tips are cached on our server, keyed by language, band, the practice phrase and weak words. The cache isn't linked to your user ID.
 
 ---
 
-## Analytics
+## Who processes your data
 
-AccentMirror collects anonymised usage data (such as "session started" and "score shown") to fix bugs and improve the app. No audio, transcriptions, or personally identifying information is ever included in this data. This is carried out under a legitimate interest basis rather than consent — we've assessed that it has minimal privacy impact while providing clear benefit in making the app work better for everyone. If you'd like to object to this processing, contact accentmirrorapp@gmail.com at any time.
+| Provider | What for | Privacy policy |
+|---|---|---|
+| Deepgram | Speech-to-text for free practice | [deepgram.com/privacy](https://deepgram.com/privacy) |
+| Microsoft Azure (Speech, Translator) | Transcription, pronunciation scoring, audio generation, translation | [privacy.microsoft.com](https://privacy.microsoft.com/en-gb/privacystatement) |
+| Anthropic | AI coaching tips, insights and practice phrases | [anthropic.com/privacy](https://www.anthropic.com/privacy) |
+| Google Firebase (Auth, Firestore, Cloud Functions) | Anonymous ID, cloud backup, server functions | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
+| Google Analytics for Firebase | Usage analytics | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| Google AdMob and User Messaging Platform | Ads and ad consent (Echo plan) | [policies.google.com/privacy](https://policies.google.com/privacy) |
+| RevenueCat | Subscription management | [revenuecat.com/privacy](https://www.revenuecat.com/privacy) |
+| Apple, Google | Payments; Sign in with Apple and Google Sign-In | [apple.com/legal/privacy](https://www.apple.com/legal/privacy/) · [policies.google.com/privacy](https://policies.google.com/privacy) |
+
+**International transfers.** Some providers process data outside the UK, mainly in the USA, under their standard data protection terms and UK transfer safeguards.
 
 ---
 
-## Advertising
+## How long we keep it
 
-Free-tier (Echo) users see ads to help cover the cost of the AI services that power every session. For users in the EEA, UK, and Switzerland, ad personalisation is managed through Google's certified consent platform (Google UMP) — you're asked to make a choice the first time you use the app, and you can change it at any time via Settings → Manage ad privacy within the app. If you consent to personalised ads, your device's advertising identifier may be used. If you don't consent, or you're outside these regions, only non-personalised, contextual ads are shown, and no advertising identifier is used. We never sell your data to advertisers or anyone else.
+- **Practice history without an account** (anonymous backup, usage and AI-request counters): deleted 12 months after your last take.
+- **Practice history, exam results and account data with an account:** deleted 2 years after your last take or sign-in, or sooner if you delete your account or ask us to.
+- **Analytics:** Google Analytics keeps event data for 2 months, and user-level data for 14 months after your last use of the app.
+- **On-device data:** until you delete it in the app or uninstall.
+
+---
+
+## Deleting your data
+
+- **Settings → Delete Account** deletes your cloud practice history, exam results, account profile, settings, trial marker and usage counters, and your sign-in account. It works even if you never created an account.
+- **Privacy & Data → Delete all local data** clears the app's data on this device only. To remove your cloud data as well, use Delete Account **first**.
+- If you've already reinstalled or cleared the app, email accentmirrorapp@gmail.com and we'll help where we can. Without an account, we may not be able to identify which anonymous backup is yours.
+
+---
+
+## Do I need an account?
+
+No. AccentMirror works fully without one, and your practice history is backed up automatically under an anonymous ID. An account is only needed if you want to restore that history after reinstalling or on another device.
 
 ---
 
 ## What we don't do
 
-- We do not sell your data to anyone.
-- We do not store your voice recordings.
-- We do not share your personal data with any third party beyond the service providers named in this policy (Microsoft, Anthropic, Google).
-- We do not use your data for any purpose other than delivering the app's features.
-
----
-
-
-## Your data, on-device and in the cloud
-
-Session history, scores, and coaching summaries are stored locally on your device, and are also automatically backed up to secure cloud storage (Firebase) so your progress survives a reinstall or a new device. This backup happens automatically from the moment you first open the app, tied to an anonymous device identifier — it does not require creating an account or entering an email address. If you later save your progress with an email address in Settings, that same backup becomes linked to your account. You can delete your on-device data by uninstalling the app; to remove your data from our servers entirely, use Delete Account in the app's Settings, or contact accentmirrorapp@gmail.com.
-
----
-
-## Do I need to create an account?
-
-No. AccentMirror works fully — including cloud backup of your progress — without
-ever creating an account or entering an email address. An anonymous identifier is
-generated automatically on first launch and is what your backed-up data is tied
-to. Creating an account with an email (via Settings → Save your progress) simply
-lets that same backup follow you if you sign in on a different device; it doesn't
-change what's collected or how it's used.
-
----
-
-## Third-party service providers
-
-| Service | Purpose | Privacy policy |
-|---|---|---|
-| Microsoft Azure Speech | Voice transcription and pronunciation scoring | [microsoft.com/privacy](https://privacy.microsoft.com/en-gb/privacystatement) |
-| Anthropic | AI coaching tips | [anthropic.com/privacy](https://www.anthropic.com/privacy) |
-| Google Analytics | Anonymised usage analytics (optional) | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| Google AdMob | Advertising (optional) | [policies.google.com/privacy](https://policies.google.com/privacy) |
-| Google Firebase | Anonymous authentication and session sync | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
-Deepgram | Speech-to-text transcription for the initial "mirror" playback stage | https://deepgram.com/privacy
-| RevenueCat | Subscription and purchase management for Fluent/Native tier billing | https://www.revenuecat.com/privacy
+- We don't sell your personal data.
+- We don't store your voice recordings.
+- We don't share your personal data with anyone except the providers listed above, and only for the purposes described.
+- We don't use your transcriptions for anything other than running the app.
 
 ---
 
 ## Your rights under UK GDPR
 
-As a UK resident you have the right to:
+You have the right to:
 
-- **Access** — request a copy of any personal data we hold about you
-- **Erasure** — request deletion of your data
-- **Rectification** — request correction of inaccurate data
-- **Portability** — receive your data in a structured, machine-readable format
-- **Object** — object to processing based on legitimate interests
-- **Withdraw consent** — at any time, for analytics and advertising
+- **Access** a copy of your personal data
+- **Rectification** of inaccurate data
+- **Erasure** of your data
+- **Restriction** of processing
+- **Portability**: receive your data in a structured, machine-readable format
+- **Object** to processing based on legitimate interests, including analytics
+- **Withdraw consent** at any time, for personalised ads and progress emails
 
-To exercise any of these rights, contact: accentmirrorapp@gmail.com
+Contact accentmirrorapp@gmail.com. We'll respond within one month, and there's no charge.
 
-We will respond within 30 days. There is no charge for making a request.
-
-If you are unsatisfied with our response, you have the right to lodge a complaint with the **Information Commissioner's Office (ICO)** at [ico.org.uk](https://ico.org.uk).
+If you're unhappy with our response, you can complain to the **Information Commissioner's Office (ICO)** at [ico.org.uk](https://ico.org.uk).
 
 ---
 
-## California Residents (CCPA)
+## California residents (CCPA/CPRA)
 
-AccentMirror does not sell personal information as defined under the California Consumer Privacy Act. California residents have the right to know what personal information is collected and to request deletion. Contact accentmirrorapp@gmail.com to exercise these rights.
+We don't sell your personal information. If you allow personalised ads, Google may use your device's advertising identifier to show them, which California law may treat as "sharing". You can stop this at any time by turning off ad tracking in your phone's settings, or by contacting us. California residents can also ask what we collect and have it deleted by emailing accentmirrorapp@gmail.com.
 
 ---
 
 ## Children
 
-AccentMirror is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has provided data through this app, please contact us and we will delete it promptly.
+AccentMirror isn't directed at children under 13, and we don't knowingly collect data from them. If you believe a child has used the app, contact us and we'll delete their data.
 
 ---
 
 ## Changes to this policy
 
-If we make material changes to this policy, we will update the "Last updated" date above. Continued use of the app after a change constitutes acceptance of the revised policy. For significant changes we will notify you within the app.
+We'll update the date at the top whenever this policy changes. For significant changes, we'll let you know in the app before they take effect.
 
 ---
 
 ## Contact
 
-Stuart Pendergast 
-Email: accentmirrorapp@gmail.com 
+Stuart Pendergast
+Email: accentmirrorapp@gmail.com
 United Kingdom
 
----
-
-*AccentMirror is an independent app. It is not affiliated with Microsoft, Anthropic, Deepgram, Revenuecat or Google.*
+*AccentMirror is an independent app. It isn't affiliated with Microsoft, Anthropic, Deepgram, RevenueCat, Apple or Google.*
