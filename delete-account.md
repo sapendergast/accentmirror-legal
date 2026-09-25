@@ -1,34 +1,38 @@
 # Delete your AccentMirror account
 
-**Last updated: July 2026**
+**Last updated: 25 September 2026**
 
+This page explains how to delete your AccentMirror data, and what happens to it when you do.
 
-This page explains how to delete your AccentMirror account and what happens to your data when you do.
+## If you still have the app
 
-**If you still have the app installed**
-Open AccentMirror
-Go to Settings
-Scroll to the Account section
-Tap Delete account
-Confirm when prompted
+1. Open AccentMirror.
+2. Go to **Settings**.
+3. Tap **Delete Account** and confirm.
 
-Your account and data are deleted immediately — there's no waiting period. This works whether or not you ever added an email and password; even a fully anonymous AccentMirror account can be deleted this way.
+Your data is deleted straight away, with no waiting period. This works whether or not you ever created an account: the anonymous ID the app uses is deleted the same way.
 
-**If you've uninstalled the app**
+## If you've uninstalled the app
 
-Email accentmirrorapp@gmail.com from the email address linked to your account (if you added one), and ask us to delete your account. If you never added an email and no longer have the app, we won't be able to identify which anonymous account was yours — reinstalling and deleting in-app is the reliable option in that case.
+**If you created an account:** reinstall the app, sign in to your account in Settings, then tap **Delete Account**. Or email accentmirrorapp@gmail.com from the email address linked to your account, or tell us whether you used Sign in with Apple or Google, and we'll delete it for you.
 
-**What gets deleted**
+**If you never created an account:** reinstalling gives you a new anonymous ID, so deleting in the app won't reach your old backup, and we can't tell which one was yours. It's deleted automatically 12 months after your last take.
 
-Deleting your account permanently removes:
+## What gets deleted
 
-Your practice session history and scores
-Your saved settings and preferences
-Your linked email address, if you added one
-Your account identifier and all associated data in our database
+- your practice history, scores and exam results
+- your settings and preferences
+- your account, including your linked email address or Apple or Google sign-in
+- your free-trial marker and daily usage counters
 
-Aggregated, anonymised usage analytics that can't be traced back to you individually may be retained for product improvement purposes.
+## What we keep, and for how long
 
-**Questions**
+- **AI-request counter** (a count used to prevent abuse): deleted straight away for Sign in with Apple accounts, and otherwise deleted automatically within 12 months.
+- **Analytics:** usage events aren't linked to your account. Google Analytics deletes them automatically within 14 months.
+- **Purchase records:** Apple, Google and RevenueCat keep records of subscriptions under their own terms, for legal and accounting reasons.
 
-Contact accentmirrorapp@gmail.com with any questions about your data.
+**Deleting your account doesn't cancel a subscription.** Cancel it first in your App Store or Google Play subscription settings.
+
+## Questions
+
+Contact accentmirrorapp@gmail.com with any questions about your data. Our [Privacy Policy](privacy-policy) has the full details.
