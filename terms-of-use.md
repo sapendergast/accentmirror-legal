@@ -1,6 +1,6 @@
 # Terms of Use - AccentMirror
 
-**Last updated: 25 September 2026**
+**Last updated: 26 September 2026**
 
 Please read these terms before using AccentMirror. By using the app, you agree to them. Our [Privacy Policy](privacy-policy) explains how we handle your data.
 
@@ -41,7 +41,7 @@ We may limit or suspend access if we reasonably believe these terms are being br
 
 - **Free trial:** new users get 7 days of full access, with up to 50 takes a day. No payment details are needed, and when the trial ends you move to Echo automatically.
 - **Echo (free):** 10 takes a day, with ads. You can watch optional short video ads for up to 15 extra takes a day.
-- **Fluent (paid):** monthly or annual subscription. Prices are shown in your local currency before you buy. Fluent includes unlimited daily takes, subject to a fair-use limit of 200 takes a day. Normal use never comes close; the limit exists to stop automated abuse. If you reach it regularly, contact us.
+- **Fluent (paid):** monthly or annual subscription. Prices are shown in your local currency before you buy. Fluent includes unlimited daily takes under a fair-use policy. Normal use never comes close; the policy exists to stop automated abuse. If an account's use looks automated or unusually heavy, we may pause its takes for a while, and we'll tell you in the app when that happens.
 
 Subscriptions are bought through Apple's App Store or Google Play and billed by them. They renew automatically unless you cancel at least 24 hours before the end of the current period, in your App Store or Google Play subscription settings. Cancellation takes effect at the end of the current billing period.
 
