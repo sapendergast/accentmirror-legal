@@ -1,6 +1,6 @@
 # Privacy Policy - AccentMirror
 
-**Last updated: 25 September 2026**
+**Last updated: 8 October 2026**
 
 AccentMirror is developed and operated by Stuart Pendergast, a sole trader based in the United Kingdom. Stuart is the data controller for the personal data described here.
 
@@ -71,13 +71,14 @@ We collect usage events (such as "session started" and "score shown") through **
 
 ### 6. Advertising (free Echo plan)
 
-The free Echo plan shows ads, including optional rewarded video ads, through **Google AdMob**.
+The free Echo plan shows ads, including optional rewarded video ads, through **Google AdMob**. Ads aren't shown during the free trial or on paid plans.
 
-- In the UK, EEA and Switzerland, you choose whether ads can be personalised through Google's certified consent tool, shown on first use. You can change your choice at any time in **Settings → Manage ad privacy**.
-- On iPhone, personalised ads also need your permission through Apple's App Tracking Transparency prompt.
-- If you don't consent, or you're elsewhere and haven't consented, only non-personalised (contextual) ads are shown.
+- In the UK, EEA and Switzerland, Google's certified consent tool asks whether ads can be personalised. You're asked once, when you start using the free plan, and again only if Google needs a fresh choice from you. No ads are requested until you've made a choice. You can change it at any time in **Settings → Manage ad privacy**.
+- If you decline, you may still see limited, non-personalised ads (Google's "Limited Ads").
+- On iPhone, personalised ads also need your permission through Apple's App Tracking Transparency prompt, which appears once, straight after the consent choice when you start using the free plan.
+- If you don't consent, or you're elsewhere and haven't consented, only non-personalised ads are shown.
 
-If you consent, your device's advertising identifier may be used. **Lawful basis:** consent for personalised ads; legitimate interests for non-personalised ads.
+If you consent, your device's advertising identifier may be used. **Lawful basis:** consent for personalised ads; legitimate interests for non-personalised and limited ads.
 
 ### 7. Subscriptions
 
@@ -116,6 +117,8 @@ To keep costs down, generated coaching tips are cached on our server, keyed by l
 ---
 
 ## Deleting your data
+
+- If this device was signed in to an account and is now signed out, sign in to that account first, then delete it. This makes sure the account you delete is the one your data is in.
 
 - **Settings → Delete Account** deletes your cloud practice history, exam results, account profile, settings, trial marker and usage counters, and your sign-in account. It works even if you never created an account.
 - **Privacy & Data → Delete all local data** clears the app's data on this device only. To remove your cloud data as well, use Delete Account **first**.
