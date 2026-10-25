@@ -1,0 +1,2 @@
+{ "projects": { "default": "accentmirror-faf51" },
+  "targets": { "accentmirror-faf51": { "hosting": { "web": ["accentmirror-web"] } } } }
