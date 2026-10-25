@@ -1,6 +1,6 @@
 # Privacy Policy - AccentMirror
 
-**Last updated: 8 October 2026**
+**Last updated: [PUBLISH DATE]**
 
 AccentMirror is developed and operated by Stuart Pendergast, a sole trader based in the United Kingdom. Stuart is the data controller for the personal data described here.
 
@@ -24,7 +24,7 @@ This policy explains what AccentMirror collects, why, who processes it, how long
 
 When you record a take, the audio is sent to speech services for transcription and pronunciation scoring:
 
-- **Deepgram** - transcription of what you say in free practice (Stage 1).
+- **Deepgram** - transcription of what you say, both in free practice and on each scored take, to check how many of your words come across clearly. Our requests are opted out of Deepgram's model improvement programme, so it keeps your audio only as long as it needs to process it.
 - **Microsoft Azure Speech Services** - transcription and pronunciation scoring, and generating the reference and "accent mirror" audio you hear.
 - **Microsoft Azure Translator** - translating your transcription so you can see what you said.
 
@@ -94,7 +94,7 @@ To keep costs down, generated coaching tips are cached on our server, keyed by l
 
 | Provider | What for | Privacy policy |
 |---|---|---|
-| Deepgram | Speech-to-text for free practice | [deepgram.com/privacy](https://deepgram.com/privacy) |
+| Deepgram | Speech-to-text for free practice and scored takes (not used for model training) | [deepgram.com/privacy](https://deepgram.com/privacy) |
 | Microsoft Azure (Speech, Translator) | Transcription, pronunciation scoring, audio generation, translation | [privacy.microsoft.com](https://privacy.microsoft.com/en-gb/privacystatement) |
 | Anthropic | AI coaching tips, insights and practice phrases | [anthropic.com/privacy](https://www.anthropic.com/privacy) |
 | Google Firebase (Auth, Firestore, Cloud Functions) | Anonymous ID, cloud backup, server functions | [firebase.google.com/support/privacy](https://firebase.google.com/support/privacy) |
