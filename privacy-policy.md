@@ -1,6 +1,6 @@
 # Privacy Policy - AccentMirror
 
-**Last updated: [PUBLISH DATE]**
+**Last updated: 26 October 2026**
 
 AccentMirror is developed and operated by Stuart Pendergast, a sole trader based in the United Kingdom. Stuart is the data controller for the personal data described here.
 
